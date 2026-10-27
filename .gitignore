@@ -1,0 +1,31 @@
+# Dataset and large archives
+VinaFood21/
+data/
+dataset/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Checkpoints and cached pretrained weights
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Python and notebook cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# Local secrets and editor files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
